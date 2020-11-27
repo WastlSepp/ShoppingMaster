@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">ShoppingMaster</string>
-    <string name="tab_text_1">Listen</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="app_name">Storey</string>
 
     <!-- Test Fragments -->
-    <string name="test_fragment_1_text">Test 1</string>
-    <string name="test_fragment_2_text">Test 2</string>
+    <string name="hello_blank_fragment">Platzhalter</string>
+    <string name="tab_text_1">Listen</string>
+    <string name="tab_text_2">Stores</string>
+    <string name="tab_text_3">Tab 3</string>
 </resources>

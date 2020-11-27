@@ -1,4 +1,4 @@
-package de.endlessgaming.shoppingmaster;
+package de.endlessgaming.shoppingmaster.ui.main;
 
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import de.endlessgaming.shoppingmaster.R;
 import de.endlessgaming.shoppingmaster.dummy.DummyContent.DummyItem;
 
 import java.util.List;

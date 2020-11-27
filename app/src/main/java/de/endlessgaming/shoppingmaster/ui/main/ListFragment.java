@@ -1,4 +1,4 @@
-package de.endlessgaming.shoppingmaster;
+package de.endlessgaming.shoppingmaster.ui.main;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import de.endlessgaming.shoppingmaster.R;
 import de.endlessgaming.shoppingmaster.dummy.DummyContent;
 
 /**
