@@ -40,7 +40,3 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
-//Test 32143214342323
-//kommunis 33
-//hallo
