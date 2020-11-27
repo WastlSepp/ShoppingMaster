@@ -26,7 +26,8 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        //Need to implement when already logged in!!!!
+        //Need to implement when already logged in!!!
+        //Fix Maybe Show logged Account on Click!
 
         GoogleSignInOptions gso =  new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -63,8 +64,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
     }
 
     private void gotoProfile(){
-        Intent intent=new Intent(LoginActivity.this,MainActivity.class);
-        startActivity(intent);
+        finish();
     }
 
     @Override
