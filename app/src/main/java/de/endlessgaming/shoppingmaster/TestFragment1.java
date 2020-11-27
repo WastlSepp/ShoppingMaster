@@ -2,8 +2,6 @@ package de.endlessgaming.shoppingmaster;
 
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -12,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link BlankFragment#newInstance} factory method to
+ * Use the {@link TestFragment1#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class BlankFragment extends Fragment {
+public class TestFragment1 extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +24,7 @@ public class BlankFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public BlankFragment() {
+    public TestFragment1() {
         // Required empty public constructor
     }
 
@@ -36,11 +34,11 @@ public class BlankFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment BlankFragment.
+     * @return A new instance of fragment TestFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static BlankFragment newInstance(String param1, String param2) {
-        BlankFragment fragment = new BlankFragment();
+    public static TestFragment1 newInstance(String param1, String param2) {
+        TestFragment1 fragment = new TestFragment1();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,11 +59,6 @@ public class BlankFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false);
-    }
-
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+        return inflater.inflate(R.layout.fragment_test1, container, false);
     }
 }

@@ -7,12 +7,16 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.tabs.TabLayout;
 
+import androidx.constraintlayout.widget.Placeholder;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
-import de.endlessgaming.shoppingmaster.ui.main.SectionsPagerAdapter;
+import de.endlessgaming.shoppingmaster.ui.main.PlaceholderFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,4 +43,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
