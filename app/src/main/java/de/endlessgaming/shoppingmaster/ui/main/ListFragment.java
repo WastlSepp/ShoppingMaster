@@ -1,17 +1,24 @@
 package de.endlessgaming.shoppingmaster.ui.main;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toolbar;
 
+import de.endlessgaming.shoppingmaster.MainActivity;
 import de.endlessgaming.shoppingmaster.R;
 import de.endlessgaming.shoppingmaster.dummy.DummyContent;
 
@@ -51,6 +58,7 @@ public class ListFragment extends Fragment {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -69,4 +77,5 @@ public class ListFragment extends Fragment {
         }
         return view;
     }
+
 }

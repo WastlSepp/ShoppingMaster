@@ -6,4 +6,10 @@
     <string name="tab_text_1">Listen</string>
     <string name="tab_text_2">Stores</string>
     <string name="tab_text_3">Tab 3</string>
+    <string name="test_manage_account">Test Manage Account</string>
+    <string name="test_authentication">Test Authentication</string>
+    <string name="test_sign_in">Test Sign In</string>
+    <string name="test_sign_out">Test Sign Out</string>
+    <string name="test_delete_user">Test Delete User</string>
+    <string name="test_set_display_name">Test Set Display Name</string>
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainMenuManageAccount"
+        android:title="@string/test_manage_account"
+        />
+    <item
+        android:id="@+id/mainMenuTestAuthentication"
+        android:title="@string/test_authentication"
+        />
+    <item
+        android:id="@+id/mainMenuSignIn"
+        android:title="@string/test_sign_in"
+        />
+    <item
+        android:id="@+id/mainMenuSignOut"
+        android:title="@string/test_sign_out"
+        />
+    <item
+        android:id="@+id/mainMenuDeleteUser"
+        android:title="@string/test_delete_user"
+        />
+    <item
+        android:id="@+id/mainMenuSetDisplayName"
+        android:title="@string/test_set_display_name"
+        />
+</menu>
